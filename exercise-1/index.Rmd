@@ -47,10 +47,9 @@ GetReview <- function(movie) {
 }
 
 # Test that your function works with a movie of your choice
-movie.info <- GetReview('Sausage Party')
-
-# 'r movie'
-## ' r movie.info$headline'
+movie.info <- GetReview('Almost Famous')
+```
+# `r movie`
+## `r movie.info$headline`
 Below is a summary of the movie
-'r movie.info$summary
-
+`r movie.info$summary`
